@@ -1,0 +1,549 @@
+@media screen and (min-width: 360px) and (max-width: 489px) {
+    /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
+    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+        font-size: 23px;
+    }
+    
+    /*MENU*/
+    .menu{
+        height: 85px;
+        padding: 3px 15px 0px 15px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .botoes{
+        gap: 10px;
+
+        & a{
+           display: none;
+        }
+    }
+
+    /*TITULOS INICIAS*/
+    .titulos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        backdrop-filter: blur(2px);
+        padding: 10px;
+
+        & h1, span{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        & h2{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        & a{
+            font-size: 15px;
+        }
+    }
+
+    /*EMPRESA*/
+    .empresas{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .container-empresa{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .tipo-empresa{
+        height: 200px;
+        width: 225px;
+        text-align: center;
+
+        & h2{
+            font-size: 15px;
+        }
+        & img{
+            height: 130px;
+        }
+        &:hover img{
+            height: 145px;
+        }
+        &:hover h2{
+            padding-top: 15px;
+        }
+    }
+    .setas{
+        width: 100%;
+        justify-content: center;
+        height: 40px;
+        & img{
+            height: 40px;
+        }
+    }
+
+    /*CONTABILIDADE*/
+    .contabilidade{
+        gap: 15px;
+        & p{
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    .contabilidade-interno{
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .servicos{
+        height: 200px;
+        width: 330px;
+
+        & img{
+            height: 60px;
+        }
+        & h2{
+            font-size: 18px;
+        }
+        & span{
+            font-size: 13px;
+        }
+    }
+
+    /*QUEM SOMOS*/
+    .sobre-nos{
+        gap: 25px;
+    }
+    .texto-sobre{
+        width: 95%;
+        font-size: 15px;
+    }
+    .botao-sobre{
+        font-size: 14px;
+    }
+    .pata-sobre{
+        height: 35px;
+    }
+
+    /*PERGUNTAS*/
+    .container-perguntas{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .frequentes{
+        width: 160px;
+        height: 200px;
+        padding: 5px;
+        gap: 5px;
+        & h2{
+            font-size: 14px;
+        }
+        & p{
+            font-size: 11px;
+        }
+        &:hover p{
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            width: 160px;
+            height: 200px;
+            padding: 5px;
+            position: absolute;
+            background-color: #18181898;
+        }
+    }
+
+    /*RODAPÉ*/
+    footer{
+        padding: 15px 0px;
+        height: 100%;
+    }
+    .rodape{
+        width: 95%;
+    }
+    .container-rodape{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    .rodape-contato{
+        width: 100%;
+        gap: 7px;
+        & h2{
+            font-size: 18px;
+        }
+        & p{
+            font-size: 14px;
+        }
+        & img{
+            height: 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width: 689px) {
+    /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
+    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+        font-size: 23px;
+    }
+    
+    /*MENU*/
+    .logo{
+        height: 40px;
+    }
+    .botoes{
+        gap: 10px;
+
+        & a{
+            padding: 10px 15px;
+        }
+    }
+
+    /*TITULOS INICIAS*/
+    .titulos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        backdrop-filter: blur(2px);
+
+        & h1, span{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        & h2{
+            margin-bottom: 10px;
+        }
+    }
+
+    /*EMPRESA*/
+    .empresas{
+        gap: 20px;
+    }
+    .container-empresa{
+        gap: 20px;
+    }
+    .tipo-empresa{
+        height: 250px;
+        width: 225px;
+        text-align: center;
+
+        & h2{
+            font-size: 15px;
+        }
+        & img{
+            height: 130px;
+        }
+        &:hover img{
+            height: 145px;
+        }
+        &:hover h2{
+            padding-top: 15px;
+        }
+    }
+    .setas{
+        width: 220px;
+        height: 40px;
+        & img{
+            height: 40px;
+        }
+    }
+
+    /*CONTABILIDADE*/
+    .contabilidade{
+        gap: 15px;
+        & p{
+            width: 95%;
+            font-size: 17px;
+        }
+    }
+    .contabilidade-interno{
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .servicos{
+        height: 230px;
+        width: 400px;
+
+        & img{
+            height: 80px;
+        }
+        & h2{
+            font-size: 20px;
+        }
+        & span{
+            font-size: 14px;
+        }
+    }
+
+    /*QUEM SOMOS*/
+    .texto-sobre{
+        width: 90%;
+        font-size: 17px;
+    }
+    .botao-sobre{
+        font-size: 16px;
+    }
+    .pata-sobre{
+        height: 40px;
+    }
+
+    /*PERGUNTAS*/
+    .container-perguntas{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .frequentes{
+        width: 220px;
+        height: 200px;
+        padding: 10px;
+        gap: 5px;
+        & h2{
+            font-size: 16px;
+        }
+        & p{
+            font-size: 13px;
+        }
+    }
+
+    /*RODAPÉ*/
+    footer{
+        padding: 15px 0px;
+        height: 100%;
+    }
+    .rodape{
+        width: 95%;
+    }
+    .container-rodape{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    .rodape-contato{
+        width: 100%;
+        gap: 7px;
+        & h2{
+            font-size: 18px;
+        }
+        & p{
+            font-size: 14px;
+        }
+        & img{
+            height: 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 998px) {
+    /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
+    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+        font-size: 25px;
+    }
+    
+    /*MENU*/
+    .logo{
+        height: 45px;
+    }
+
+    /*TITULOS INICIAS*/
+    .titulos {
+        width: 450px;
+        top: 100px;
+        left: 50px;
+
+        & h1, span{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        & h2{
+            margin-bottom: 10px;
+        }
+    }
+
+    /*EMPRESA*/
+    .empresas{
+        gap: 170px;
+    }
+    .container-empresa{
+        gap: 20px;
+    }
+    .tipo-empresa{
+        height: 250px;
+        width: 320px;
+
+        & h2{
+            font-size: 18px;
+        }
+        & img{
+            height: 150px;
+        }
+        &:hover img{
+            height: 165px;
+        }
+        &:hover h2{
+            padding-top: 15px;
+        }
+    }
+    .setas{
+        width: 240px;
+        height: 45px;
+        & img{
+            height: 50px;
+        }
+    }
+
+    /*CONTABILIDADE*/
+    .contabilidade{
+        gap: 15px;
+        & p{
+            width: 85%;
+            font-size: 18px;
+        }
+    }
+    .contabilidade-interno{
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .servicos{
+        height: 280px;
+        width: 400px;
+
+        & img{
+            height: 120px;
+        }
+    }
+
+    /*QUEM SOMOS*/
+    .texto-sobre{
+        width: 80%;
+    }
+    .botao-sobre{
+        font-size: 17px;
+    }
+    .pata-sobre{
+        height: 40px;
+    }
+
+    /*PERGUNTAS*/
+    .container-perguntas{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .frequentes{
+        width: 250px;
+        height: 220px;
+        padding: 10px;
+        gap: 5px;
+        & h2{
+            font-size: 18px;
+        }
+        & p{
+            font-size: 15px;
+        }
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        width: 90%;
+    }
+    .rodape-contato{
+        & h2{
+            font-size: 18px;
+        }
+        & a, p{
+            font-size: 14px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 999px) and (max-width: 1289px) {
+    /*TITULOS INICIAS*/
+    .titulos {
+        width: 600px;
+        top: 100px;
+        left: 50px;
+
+        & h1, span{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        & h2{
+            margin-bottom: 10px;
+        }
+    }
+
+    /*EMPRESA*/
+    .empresas{
+        gap: 290px;
+    }
+    .container-empresa{
+        gap: 30px;
+    }
+    .tipo-empresa{
+        height: 300px;
+        width: 470px;
+
+        & h2{
+            font-size: 25px;
+        }
+        & img{
+            height: 180px;
+        }
+    }
+
+    /*CONTABILIDADE*/
+    .contabilidade-interno{
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    /*QUEM SOMOS*/
+    .texto-sobre{
+        width: 70%;
+    }
+
+    /*PERGUNTAS*/
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        width: 80%;
+    }
+    .rodape-contato{
+        & h2{
+            font-size: 20px;
+        }
+        & a, p{
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1500px) {
+    /*TITULOS INICIAS*/
+    .titulos {
+        width: 750px;
+    }
+
+    /*EMPRESA*/
+    .container-empresa{
+        gap: 50px;
+    }
+
+    /*PERGUNTAS*/
+    .container-perguntas{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}
