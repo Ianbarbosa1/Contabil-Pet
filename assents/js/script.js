@@ -18,6 +18,9 @@ function closeMenu(){
     container.style.display = 'none'
 }
 
+/*CONTADOR*/
+let contador = document.querySelector('#cont')
+
 /*FUNCIONAMENTO*/
 let primeira = document.querySelector('#one')
 let segunda = document.querySelector('#two')
@@ -50,6 +53,8 @@ function ida1(){
     /*ENTRA*/
     se2.style.display = 'flex'
     sd2.style.display = 'flex'
+
+    contador.innerHTML = '2'
 }
 function ida2(){
     segunda.style.display = 'none'
@@ -62,6 +67,8 @@ function ida2(){
     /*ENTRA*/
     se3.style.display = 'flex'
     sd3.style.display = 'flex'
+
+    contador.innerHTML = '3'
 }
 
 /*VOLTAS*/
@@ -76,6 +83,8 @@ function volta1(){
     /*ENTRA*/
     se2.style.display = 'none'
     sd2.style.display = 'none'
+
+    contador.innerHTML = '1'
 }
 function volta2(){
     segunda.style.display = 'flex'
@@ -88,4 +97,7 @@ function volta2(){
     /*ENTRA*/
     se3.style.display = 'none'
     sd3.style.display = 'none'
+
+    contador.innerHTML = '2'
 }
+

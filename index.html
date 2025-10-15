@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Empresa voltada para serviços contábeis para clinicas veterinárias.">
+    <meta name="description" content="A contábil pet é voltada para serviços contábeis para clinicas veterinárias, hospitais veterinários e profissionais da área.">
     <link rel="website icon"  type="png" href="./assents/imagens/pata-contabil.png">
 
     <link rel="stylesheet" href="./assents/css/estilos.css">
     <link rel="stylesheet" href="./assents/css/responsivo.css">
-    <link rel="stylesheet" href="./assents/css/animacoes.css">
 
     <!-- FONTES EXPORTADAS-->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -21,15 +20,15 @@
         <a href="#sobre" id="sb">SOBRE NÓS</a>
         <a href="#servicos" id="sv">SERVIÇOS</a>
         <a href="#perguntas" id="pa">PERGUNTAS</a>
-        <a href="">NOSSOS PRODUTOS</a>
+        <a href="./assents/produtos.html">PRODUTOS</a>
     </article>
 
-    <header class="entrada">
+    <header class="entrada" id="home">
         <nav class="menu">
             <img src="./assents/imagens/logo.png" alt="logo" class="logo">
 
             <div class="botoes">
-                <a href="">Fale Conosco</a>
+                <a href="./assents/produtos.html">PRODUTOS</a>
                 <img src="./assents/imagens/menu.svg" alt="menu" class="abrir">
             </div>
         </nav>
@@ -48,6 +47,7 @@
                <h1>QUEM ATENDEMOS</h1>
 
                <nav class="setas">
+                <div class="contador"><span id="cont">1</span>/3</div>
                 <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se1">
                 <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se2">
                 <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se3">
@@ -198,7 +198,9 @@
 
     <footer>
         <section class="rodape">
-            <img src="./assents/imagens/logo.png" alt="logo" class="logo">
+            <a href="#home">
+                <img src="./assents/imagens/logo.png" alt="logo" class="logo">
+            </a>
             <section class="container-rodape">
                 <div class="rodape-contato">
                     <h2>Contato</h2>

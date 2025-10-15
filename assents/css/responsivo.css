@@ -16,7 +16,8 @@
         gap: 10px;
 
         & a{
-           display: none;
+            padding: 10px 15px;
+            font-size: 13px;
         }
     }
 
@@ -74,12 +75,17 @@
             padding-top: 15px;
         }
     }
+    .contador{
+        position: absolute;
+        margin-top: 80px;
+    }
     .setas{
         width: 100%;
         justify-content: center;
         height: 40px;
+        margin-bottom: 30px;
         & img{
-            height: 40px;
+            height: 45px;
         }
     }
 
@@ -251,8 +257,9 @@
     .setas{
         width: 220px;
         height: 40px;
+        gap: 10px;
         & img{
-            height: 40px;
+            height: 45px;
         }
     }
 
@@ -394,6 +401,7 @@
     .setas{
         width: 240px;
         height: 45px;
+        gap: 10px;
         & img{
             height: 50px;
         }
