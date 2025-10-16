@@ -22,6 +22,9 @@
     }
 
     /*TITULOS INICIAS*/
+    .container-inicial{
+        background-position: left;
+    }
     .titulos {
         height: 100%;
         width: 100%;
@@ -208,6 +211,9 @@
     }
 
     /*TITULOS INICIAS*/
+    .container-inicial{
+        background-position: left;
+    }
     .titulos {
         height: 100%;
         width: 100%;
