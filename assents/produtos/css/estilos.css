@@ -7,12 +7,137 @@
     text-decoration: none;
 }
 
-header{
-    height: 100vh;
-    width: 100%;
-    background-color: #0084e0;
-    color: #E8F4FA;
+/*DIVS FLEXs*/
+header, .voltar, main, .container-produtos, .titulo, .produto, .descricao-produto, .compra, footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*MENU*/
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #0084e0;
+    color: #E8F4FA;
+}
+.voltar{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    color: #E8F4FA;
+    font-weight: 100;
+    border: 1px solid #E8F4FA;
+    border-radius: 3px;
+    & img{
+        height: 20px;
+        position: relative;
+        transition: all 1s ease-in-out;
+    }
+    &:hover img{
+        right: 3px;
+    }
+}
+.fundo-branco{
+    background-color: #E8F4FA;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.logo{
+    height: 60px;
+}
+
+/*PRODUTOS*/
+main{
+    padding: 50px;
+    background-color: #E8F4FA;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-produtos{
+    gap: 25px;
+    flex-direction: column;
+    border: 1px solid #0084e0;
+    border-radius: 5px;
+    padding: 15px;
+}
+.titulo{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    & h1{
+        font-size: 25px;
+        font-weight: 200;
+        color: #5F6C7B;
+    }
+    & .barrinha{
+        height: 5px;
+        width: 300px;
+        background-color: #0084e0;
+    }
+}
+.produto{
+    width: 1000px;
+    gap: 10px;
+    & img{
+        border-radius: 5px;
+    }
+}
+.descricao-produto{
+    flex-direction: column;
+    gap: 20px;
+    & p, li{
+        font-size: 17px;
+        font-weight: 300;
+        color: #5F6C7B;
+    }
+    li{
+        list-style: inside;
+        list-style-type: circle;
+        
+    }
+}
+.compra{
+    width: 100%;
+    justify-content: space-around;
+    & span{
+        font-size: 19px;
+        color: #0084e0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: 200;
+        border: 1px solid #0084e0;
+    }
+    & a{
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: #E8F4FA;
+        background-color: #0084e0;
+        border: 1px solid transparent;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Quicksand", sans-serif;
+
+        &:hover{
+            color: #0084e0;
+            background-color: transparent;
+            border: 1px solid #0084e0;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+/*RODAPÉ*/
+footer{
+    flex-direction: column;
+    gap: 10px;
+    height: 120px;
+    background-color: #003e59;
+    color: #E8F4FA;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    & img{
+        height: 40px;
+    }
 }
