@@ -8,7 +8,7 @@
 }
 
 /*DIVS FLEX*/
-.entrada, .menu, .botoes, .menu-estatico, .atendemos, .empresas, .setas, .container-empresa, .tipo-empresa, .contabilidade, .contabilidade-interno, .servicos, .sobre-nos, .titulo-sobre, .perguntas, .titulo-pergunta, .container-perguntas, .frequentes, footer, .rodape, .container-rodape, .rodape-contato{
+.entrada, .menu, .botoes, .menu-estatico, .atendemos, .empresas, .setas, .container-empresa, .tipo-empresa, .contabilidade, .contabilidade-interno, .servicos, .sobre-nos, .titulo-sobre, .perguntas, .titulo-pergunta, .container-perguntas, .frequentes, footer, .rodape, .rodape-logo, .container-rodape, .rodape-contato{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +299,7 @@ body{
 .botao-sobre{
     color: #E8F4FA;
     background-color: #f2c94d;
-    padding: 20px 30px;
+    padding: 13px 20px;
     font-size: 20px;
     border-radius: 15px 5px;
     transition: all 0.5s ease-in-out;
@@ -374,7 +374,7 @@ body{
 
 /*RODAPÉ*/
 footer{
-    height: 280px;
+    height: 300px;
     flex-direction: column;
     background-color: #0084e0;
 }
@@ -383,8 +383,16 @@ footer{
     width: 70%;
     gap: 20px;
 }
+.rodape-logo{
+    gap: 10px;
+    color: #E8F4FA;
+    flex-direction: column;
+    font-weight: 300;
+    text-align: center;
+}
 .back-img{
-    padding: 10px;background-color: #E8F4FA;
+    padding: 10px;
+    background-color: #E8F4FA;
     border-radius: 10px;
 }
 .container-rodape{
@@ -398,26 +406,25 @@ hr{
     flex-direction: column;
     gap: 10px;
     
-
     & nav{
         display: flex;
         gap: 20px;
     }
     & h2{
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 400;
         color: #f2c94d;
-        border-bottom: 1px solid;
+        border-bottom: 1.5px solid;
         margin-bottom: 3px;
     }
     & p{
         font-weight: 100;
-        color: #E8F4FA; 
+        color: #E8F4FA;
     }
     & img{
-        height: 35px;
+        height: 33px;
         &:hover{
-            filter: drop-shadow(0px 0px 5px #E8F4FA);
+            filter: drop-shadow(0px 0px 3px #E8F4FA);
         }
     }
 }

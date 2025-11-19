@@ -104,10 +104,14 @@ main{
     & span{
         font-size: 19px;
         color: #0084e0;
-        padding: 10px 15px;
+        height: 50px;
+        width: 105px;
         border-radius: 5px;
         font-weight: 200;
         border: 1px solid #0084e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     & a{
         padding: 10px 15px;
@@ -133,11 +137,14 @@ footer{
     flex-direction: column;
     gap: 10px;
     height: 120px;
-    background-color: #003e59;
+    background-color: #0084e0;
     color: #E8F4FA;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     & img{
         height: 40px;
+    }
+    & p{
+        font-weight: 300;
     }
 }

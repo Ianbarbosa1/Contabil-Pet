@@ -69,13 +69,13 @@
             font-size: 15px;
         }
         & img{
-            height: 130px;
+            height: 120px;
         }
         &:hover img{
-            height: 145px;
+            height: 130px;
         }
         &:hover h2{
-            padding-top: 15px;
+            padding-top: 10px;
         }
     }
     .contador{
@@ -149,6 +149,13 @@
         }
         & p{
             font-size: 11px;
+            position: absolute;
+            width: 160px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(1px);
         }
         &:hover p{
             border-radius: 15px;
@@ -171,6 +178,9 @@
     }
     .rodape{
         width: 95%;
+        & p{
+            font-size: 14px;
+        }
     }
     .container-rodape{
         flex-direction: column;
@@ -182,9 +192,6 @@
         gap: 7px;
         & h2{
             font-size: 18px;
-        }
-        & p{
-            font-size: 14px;
         }
         & img{
             height: 25px;
@@ -323,6 +330,24 @@
         }
         & p{
             font-size: 13px;
+            position: absolute;
+            width: 220px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(1px);
+        }
+        &:hover p{
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            width: 220px;
+            height: 200px;
+            padding: 5px;
+            background-color: #18181898;
         }
     }
 
@@ -333,6 +358,9 @@
     }
     .rodape{
         width: 95%;
+        & p{
+            font-size: 14px;
+        }
     }
     .container-rodape{
         flex-direction: column;
@@ -344,9 +372,6 @@
         gap: 7px;
         & h2{
             font-size: 18px;
-        }
-        & p{
-            font-size: 14px;
         }
         & img{
             height: 25px;
