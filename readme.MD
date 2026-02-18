@@ -4,7 +4,7 @@ Projeto construido por Ian barbosa e Erick Fernandes
     --------------------------------
 FONTE PARA TITULOS: font-family: "Quicksand", sans-serif;
 
-FONTES PARA TEXTOS:  font-family: "Merriweather Sans", sans-serif;
+FONTES PARA TEXTOS:  font-family: "Open Sans", 'Segoe UI';
 
 cor da logo = #0084e0
 

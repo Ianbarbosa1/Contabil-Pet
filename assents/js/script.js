@@ -10,6 +10,7 @@ fechar.addEventListener('click', closeMenu)
 fecharSobre.addEventListener('click', closeMenu)
 fecharServico.addEventListener('click', closeMenu)
 fecharPergunta.addEventListener('click', closeMenu)
+container.addEventListener('click', closeMenu)
 
 function openMenu(){
     container.style.display = 'flex'
@@ -100,5 +101,3 @@ function volta2(){
 
     contador.innerHTML = '2'
 }
-
-alert('Por questões de teste todos os links de direcionamento para o WhatsApp serão direcionados para o contato do desenvolvedor!')

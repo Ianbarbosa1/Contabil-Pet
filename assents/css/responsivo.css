@@ -1,22 +1,22 @@
 @media screen and (min-width: 360px) and (max-width: 489px) {
     /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
     .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
-        font-size: 23px;
+        font-size: 20px;
     }
     
     /*MENU*/
     .menu{
-        height: 85px;
+        height: 70px;
         padding: 3px 15px 0px 15px;
     }
     .logo{
-        height: 40px;
+        height: 38px;
     }
     .botoes{
-        gap: 10px;
+        gap: 15px;
 
         & a{
-            padding: 10px 15px;
+            padding: 7px 12px;
             font-size: 13px;
         }
     }
@@ -24,6 +24,7 @@
     /*TITULOS INICIAS*/
     .container-inicial{
         background-position: left;
+        height: 87vh;
     }
     .titulos {
         height: 100%;
@@ -35,15 +36,14 @@
         top: 0px;
         left: 0px;
         text-align: center;
-        backdrop-filter: blur(2px);
-        padding: 10px;
+        padding: 7px;
 
         & h1, span{
-            font-size: 30px;
+            font-size: 29px;
             margin-bottom: 10px;
         }
         & h2{
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 10px;
         }
         & a{
@@ -62,7 +62,7 @@
     }
     .tipo-empresa{
         height: 200px;
-        width: 225px;
+        width: 300px;
         text-align: center;
 
         & h2{
@@ -96,12 +96,12 @@
     .contabilidade{
         gap: 15px;
         & p{
-            width: 100%;
-            font-size: 15px;
+            width: 99%;
+            font-size: 14px;
         }
     }
     .contabilidade-interno{
-        gap: 5px;
+        gap: 15px;
         flex-wrap: wrap;
     }
     .servicos{
@@ -121,7 +121,7 @@
 
     /*QUEM SOMOS*/
     .sobre-nos{
-        gap: 25px;
+        background-image: linear-gradient(to bottom, #0084e0, #E8F4FA , #E8F4FA, #E8F4FA, #E8F4FA, #E8F4FA, #0084e0);
     }
     .texto-sobre{
         width: 95%;
@@ -141,9 +141,9 @@
     }
     .frequentes{
         width: 160px;
-        height: 200px;
+        height: 180px;
         padding: 5px;
-        gap: 5px;
+        gap: 10px;
         & h2{
             font-size: 14px;
         }
@@ -151,23 +151,14 @@
             font-size: 11px;
             position: absolute;
             width: 160px;
-            height: 200px;
+            height: 180px;
             display: flex;
             justify-content: center;
             align-items: center;
             backdrop-filter: blur(1px);
         }
         &:hover p{
-            border-radius: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             opacity: 1;
-            width: 160px;
-            height: 200px;
-            padding: 5px;
-            position: absolute;
-            background-color: #18181898;
         }
     }
 
@@ -178,24 +169,26 @@
     }
     .rodape{
         width: 95%;
-        & p{
+    }
+    .rodape-contato{
+        width: 100%;
+        gap: 10px;
+        & a, p{
             font-size: 14px;
+        }
+        & img{
+            padding: 8px;
+            height: 35px;
         }
     }
     .container-rodape{
         flex-direction: column;
         justify-content: center;
-        gap: 25px;
+        gap: 15px;
     }
-    .rodape-contato{
-        width: 100%;
-        gap: 7px;
-        & h2{
-            font-size: 18px;
-        }
-        & img{
-            height: 25px;
-        }
+    
+    .devs{
+        text-align: center;
     }
 }
 
@@ -206,11 +199,15 @@
     }
     
     /*MENU*/
+    .menu{
+        height: 70px;
+        padding: 3px 30px 0px 30px;
+    }
     .logo{
         height: 40px;
     }
     .botoes{
-        gap: 10px;
+        gap: 30px;
 
         & a{
             padding: 10px 15px;
@@ -220,6 +217,7 @@
     /*TITULOS INICIAS*/
     .container-inicial{
         background-position: left;
+        height: 90vh;
     }
     .titulos {
         height: 100%;
@@ -232,21 +230,20 @@
         left: 0px;
         text-align: center;
         backdrop-filter: blur(2px);
+        padding: 5px;
 
         & h1, span{
-            font-size: 40px;
+            font-size: 35px;
             margin-bottom: 10px;
         }
         & h2{
+            font-size: 20px;
             margin-bottom: 10px;
         }
     }
 
     /*EMPRESA*/
-    .empresas{
-        gap: 20px;
-    }
-    .container-empresa{
+    .container-empresa, .atendemos-container{
         gap: 20px;
     }
     .tipo-empresa{
@@ -255,7 +252,7 @@
         text-align: center;
 
         & h2{
-            font-size: 15px;
+            font-size: 14px;
         }
         & img{
             height: 130px;
@@ -281,7 +278,6 @@
         gap: 15px;
         & p{
             width: 95%;
-            font-size: 17px;
         }
     }
     .contabilidade-interno{
@@ -304,6 +300,9 @@
     }
 
     /*QUEM SOMOS*/
+    .sobre-nos{
+        background-image: linear-gradient(to bottom, #0084e0, #E8F4FA, #E8F4FA, #E8F4FA, #0084e0);
+    }
     .texto-sobre{
         width: 90%;
         font-size: 17px;
@@ -324,30 +323,13 @@
         width: 220px;
         height: 200px;
         padding: 10px;
-        gap: 5px;
         & h2{
             font-size: 16px;
         }
         & p{
             font-size: 13px;
-            position: absolute;
             width: 220px;
             height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            backdrop-filter: blur(1px);
-        }
-        &:hover p{
-            border-radius: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 1;
-            width: 220px;
-            height: 200px;
-            padding: 5px;
-            background-color: #18181898;
         }
     }
 
@@ -358,25 +340,27 @@
     }
     .rodape{
         width: 95%;
-        & p{
+        gap: 15px;
+    }
+    .rodape-contato{
+        width: 100%;
+        gap: 10px;
+        .logo{
+            height: 45px;
+        }
+        & a, p{
             font-size: 14px;
+        }
+        img{
+            height: 35px;
         }
     }
     .container-rodape{
         flex-direction: column;
         justify-content: center;
-        gap: 25px;
+        gap: 20px;
     }
-    .rodape-contato{
-        width: 100%;
-        gap: 7px;
-        & h2{
-            font-size: 18px;
-        }
-        & img{
-            height: 25px;
-        }
-    }
+    
 }
 
 @media screen and (min-width: 690px) and (max-width: 998px) {
@@ -392,25 +376,22 @@
 
     /*TITULOS INICIAS*/
     .titulos {
-        width: 450px;
-        top: 100px;
-        left: 50px;
+        width: 500px;
+        left: 30px;
 
         & h1, span{
-            font-size: 40px;
+            font-size: 35px;
             margin-bottom: 10px;
         }
         & h2{
             margin-bottom: 10px;
+            font-size: 20px;
         }
     }
 
     /*EMPRESA*/
     .empresas{
         gap: 170px;
-    }
-    .container-empresa{
-        gap: 20px;
     }
     .tipo-empresa{
         height: 250px;
@@ -473,24 +454,24 @@
     /*PERGUNTAS*/
     .container-perguntas{
         gap: 20px;
-        flex-wrap: wrap;
     }
     .frequentes{
         width: 250px;
         height: 220px;
         padding: 10px;
-        gap: 5px;
         & h2{
             font-size: 18px;
         }
         & p{
-            font-size: 15px;
+            width: 250px;
+            height: 220px;
+            padding: 10px;
         }
     }
 
     /*RODAPÉ*/
     .rodape{
-        width: 90%;
+        width: 98%;
     }
     .rodape-contato{
         & h2{
@@ -506,8 +487,7 @@
 @media screen and (min-width: 999px) and (max-width: 1289px) {
     /*TITULOS INICIAS*/
     .titulos {
-        width: 600px;
-        top: 100px;
+        width: 700px;
         left: 50px;
 
         & h1, span{
@@ -520,12 +500,6 @@
     }
 
     /*EMPRESA*/
-    .empresas{
-        gap: 290px;
-    }
-    .container-empresa{
-        gap: 30px;
-    }
     .tipo-empresa{
         height: 300px;
         width: 470px;
@@ -539,9 +513,14 @@
     }
 
     /*CONTABILIDADE*/
+    .contabilidade{
+        & p{
+            width: 85%;
+        }
+    }
     .contabilidade-interno{
-        gap: 15px;
         flex-wrap: wrap;
+        gap: 25px;
     }
 
     /*QUEM SOMOS*/
@@ -551,21 +530,7 @@
 
     /*PERGUNTAS*/
     .container-perguntas{
-        gap: 50px;
-        flex-wrap: wrap;
-    }
-
-    /*RODAPÉ*/
-    .rodape{
-        width: 80%;
-    }
-    .rodape-contato{
-        & h2{
-            font-size: 20px;
-        }
-        & a, p{
-            font-size: 14px;
-        }
+        gap: 20px;
     }
 }
 
@@ -573,16 +538,5 @@
     /*TITULOS INICIAS*/
     .titulos {
         width: 750px;
-    }
-
-    /*EMPRESA*/
-    .container-empresa{
-        gap: 50px;
-    }
-
-    /*PERGUNTAS*/
-    .container-perguntas{
-        gap: 50px;
-        flex-wrap: wrap;
     }
 }
