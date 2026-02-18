@@ -1,6 +1,6 @@
 @media screen and (min-width: 360px) and (max-width: 489px) {
     /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
-    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+    .empresas h1, .contabilidade h1, .sobre-nos h1, .titulo-pergunta h1{
         font-size: 20px;
     }
     
@@ -194,7 +194,7 @@
 
 @media screen and (min-width: 490px) and (max-width: 689px) {
     /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
-    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+    .empresas h1, .contabilidade h1, .sobre-nos h1, .titulo-pergunta h1{
         font-size: 23px;
     }
     
@@ -360,12 +360,14 @@
         justify-content: center;
         gap: 20px;
     }
-    
+        .devs{
+            text-align: center;
+        }
 }
 
 @media screen and (min-width: 690px) and (max-width: 998px) {
     /*TAMANHO APLICADO A TODOS OS TITULOS DO SITE*/
-    .empresas h1, .contabilidade h1, .titulo-sobre h1, .titulo-pergunta h1{
+    .empresas h1, .contabilidade h1, .sobre-nos h1, .titulo-pergunta h1{
         font-size: 25px;
     }
     

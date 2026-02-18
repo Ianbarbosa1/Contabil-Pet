@@ -170,7 +170,7 @@ body {
     & a {
         position: relative;
         top: 20px;
-        padding: 15px;
+        padding: 12px 16px;
         font-size: 20px;
         border-radius: 15px 5px;
         color: #0084e0;
@@ -257,19 +257,14 @@ body {
         padding-top: 15px;
     }
 }
-#two,
-#three {
+#two, #three {
     display: none;
 }
-#se1,
-#sd3 {
+#se1, #sd3 {
     opacity: 0.5;
     cursor: no-drop;
 }
-#se2,
-#se3,
-#sd2,
-#sd3 {
+#se2, #se3, #sd2, #sd3 {
     display: none;
 }
 
@@ -302,7 +297,6 @@ body {
 .contabilidade-interno {
     gap: 15px;
 }
-
 .servicos {
     height: 300px;
     width: 400px;
@@ -340,28 +334,16 @@ body {
     padding: 100px 0px;
     flex-direction: column;
     background-image: linear-gradient(to bottom right, #0084e0, #E8F4FA, #E8F4FA, #E8F4FA, #0084e0);
-}
-
-.titulo-sobre {
-    gap: 20px;
-    background-color: #0084e0;
-    padding: 5px;
-    border-radius: 15px;
-
-    & nav {
-        height: 8px;
-        width: 50px;
-        background-color: #E8F4FA;
-        border-radius: 5px 25px;
-    }
 
     & h1 {
         font-family: "Quicksand", sans-serif;
         font-size: 35px;
         color: #E8F4FA;
+        background-color: #0084e0;
+        padding: 5px;
+        border-radius: 15px;
     }
 }
-
 .texto-sobre {
     font-size: 20px;
     font-weight: 400;
@@ -369,11 +351,10 @@ body {
     text-align: justify;
     width: 50%;
 }
-
 .botao-sobre {
     color: #E8F4FA;
     background-color: #f2c94d;
-    padding: 13px 20px;
+    padding: 12px 16px;
     font-size: 20px;
     border: 1px solid transparent;
     border-radius: 15px 5px;
@@ -385,7 +366,6 @@ body {
         border-radius: 10px 3px;
     }
 }
-
 .pata-sobre {
     height: 50px;
 }
@@ -461,13 +441,11 @@ footer {
     background-color: #E8F4FA;
     color: #5F6C7B;
 }
-
 .rodape {
     flex-direction: column;
     width: 98%;
     gap: 15px;
 }
-
 .rodape-contato {
     gap: 15px;
     color: #5F6C7B;
@@ -499,17 +477,14 @@ footer {
         border-radius: 15px;
     }
 }
-
 .container-rodape {
     width: 100%;
     justify-content: space-around;
 }
-
 hr {
     width: 100%;
     border: 1px solid #5f6c7b3b;
 }
-
 .devs {
     width: 100%;
     color: #5F6C7B;
