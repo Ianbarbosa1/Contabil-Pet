@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A contábil pet é voltada para serviços contábeis para clinicas veterinárias, hospitais veterinários e profissionais da área.">
+    <link rel="website icon"  type="png" href="./assents/imagens/pata.svg">
+
+    <link rel="stylesheet" href="./assents/css/estilos.css">
+    <link rel="stylesheet" href="./assents/css/responsivo.css">
+
+    <!-- FONTES EXPORTADAS-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <title>Contábil Pet</title>
+</head>
+
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6995dc689f37f41c3013c386/1jhom9u2l';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+
+<body>
+    <article class="menu-estatico" id="menuEstatico">
+        <section class="estrutura-menu">
+            <nav>
+                <img src="./assents/imagens/logo.png" alt="logo">
+                <p class="fechar" title="Fechar Menu" onclick="closeMenu()">X</p>
+            </nav>
+            
+            <div class="estrutura-interna-menu">
+                <h1>ATALHOS</h1>
+                <a href="#sobre" onclick="closeMenu()"> 
+                    <img src="./assents/imagens/pata.svg" alt="pata">
+                    Sobre nós
+                </a>
+                <a href="#servicos" onclick="closeMenu()">
+                    <img src="./assents/imagens/pata.svg" alt="pata">
+                    Serviços
+                </a>
+                <a href="#perguntas" onclick="closeMenu()">
+                    <img src="./assents/imagens/pata.svg" alt="pata">
+                    Perguntas
+                </a>
+                <a href="./assents/produtos.html">
+                    <img src="./assents/imagens/pata.svg" alt="pata">
+                    Produtos
+                </a>
+            </div>
+            
+            <div class="estrutura-interna-menu">
+                <h1>REDES SOCIAIS</h1>
+                <a href="">
+                    <img src="./assents/imagens/instagram.png" alt="Instagram">
+                    Instagram
+                </a>
+                <a href="">
+                    <img src="./assents/imagens/facebook.png" alt="Facebook">
+                    Facebook
+                </a>
+                <a href="">
+                    <img src="./assents/imagens/whatsapp.png" alt="Whatsapp">
+                    Whatsapp
+                </a>
+            </div>
+        </section>
+    </article>
+
+    <header class="entrada" id="home">
+        <nav class="menu">
+            <img src="./assents/imagens/logo.png" alt="logo" class="logo">
+
+            <div class="botoes">
+                <a href="./assents/produtos.html">ENTRAR</a>
+                <img src="./assents/imagens/menu.svg" alt="menu" class="abrir" onclick="openMenu()">
+            </div>
+        </nav>
+        <section class="container-inicial">
+            <div class="titulos">
+                <h1>Contabilidade Digital para<br><span>Pet Shop</span> & <span>Clínica Veterinária</span>.</h1>
+                <h2>Cuidamos para que sua empresa não receba multas ou cobranças de impostos indevidos. Contabilidade Digital com Atendimento Personalizado.</h2>
+                <a href="https://wa.me/5521998382523">FALE CONOSCO</a>
+            </div>
+        </section>
+    </header>
+
+    <main> 
+        <section class="atendemos">
+            <section class="atendemos-container">
+                <div class="empresas">
+                   <h1>QUEM ATENDEMOS</h1>
+    
+                   <nav class="setas">
+                    <div class="contador"><span id="cont">1</span>/3</div>
+                    <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se1">
+                    <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se2" onclick="volta1()">
+                    <img src="./assents/imagens/esquerda.svg" alt="esquerda" id="se3"
+                    onclick="volta2()">
+    
+                    <img src="./assents/imagens/direita.svg" alt="direita" id="sd1"
+                    onclick="ida1()"> 
+                    <img src="./assents/imagens/direita.svg" alt="direita" id="sd2"
+                    onclick="ida2()">
+                    <img src="./assents/imagens/direita.svg" alt="direita" id="sd3">
+                   </nav>
+                </div>
+    
+                <section class="container-empresa" id="one">
+                    <div class="tipo-empresa">
+                        <h2>Pet Shops & Casas de Ração</h2>
+                        <img src="./assents/imagens/1.svg" alt="pet shop">
+                    </div>
+    
+                    <div class="tipo-empresa">
+                        <h2>Consultório & Clinicas Veterinárias </h2>
+                        <img src="./assents/imagens/2.svg" alt="clinica-veterinaria">
+                    </div>
+                </section>
+    
+                <section class="container-empresa" id="two">
+                    <div class="tipo-empresa">
+                        <h2>Hospitais Veterinários</h2>
+                        <img src="./assents/imagens/3.svg" alt="hospitais veterinarios">
+                    </div>
+    
+                    <div class="tipo-empresa">
+                        <h2>Banho e tosa</h2>
+                        <img src="./assents/imagens/4.svg" alt="banho e tosa">
+                    </div>
+                </section>
+    
+                <section class="container-empresa" id="three">
+                    <div class="tipo-empresa">
+                        <h2>Fabricantes e Distribuidores</h2>
+                        <img src="./assents/imagens/5.svg" alt="fabricantes">
+                    </div>
+    
+                    <div class="tipo-empresa">
+                        <h2>Profissionais da Área</h2>
+                        <img src="./assents/imagens/6.svg" alt="profissionais">
+                    </div>
+                </section>
+            </section>
+
+        </section>
+
+        <section class="contabilidade" id="servicos" >
+            <h1>CONTABILIDADE COMPLETA</h1>
+            <p>Consiste no registro das operações econômico-financeiras, suportadas por documentação hábil, confrontadas com controles internos e extratos bancários da empresa, permitindo a geração de relatórios legais e gerenciais, tais como demonstração de resultado, fluxo de caixa e balanço patrimonial, dentre outros. Os relatórios gerados contribuem significativamente com a gestão da empresa.</p>
+
+            <div class="contabilidade-interno">
+                <nav class="servicos">
+                    <img src="./assents/imagens/departamento-fiscal.png" alt="departamento fiscal">
+                    <h2>Departamento Fiscal</h2>
+                    <span>Conte com a nossa equipe para orientação na emissão de suas notas fiscais, estratégias para redução de impostos e benefícios tributários.</span>
+                </nav>
+
+                <nav class="servicos">
+                    <img src="./assents/imagens/departamento-pessoal.png" alt="departamento pessoal">
+                    <h2>Departamento Pessoal</h2>
+                    <span>Folha de pagamento, admissão, demissão, calculo de impostos, pro labore dos socios, entre outros.</span>
+                </nav>
+
+                <nav class="servicos">
+                    <img src="./assents/imagens/legalização.png" alt="Legalização">
+                    <h2>Legalização</h2>
+                    <span>Constituição, alteração, transformação e encerramento de empresa. Obtenção e renovação de certidões e licenças.</span>
+                </nav>
+            </div>
+        </section>
+
+        <section class="sobre-nos" id="sobre">
+            <h1>QUEM SOMOS NÓS?</h1> 
+
+            <p class="texto-sobre">A Contábil Pet é especialista em atender exclusivamente Pet Shops e Clínicas Veterinárias, oferecendo soluções contábeis completas que vão muito além do básico. Nosso foco é proporcionar tranquilidade, segurança e eficiência na gestão do seu negócio.</p>
+            <p class="texto-sobre">Por conhecermos profundamente as particularidades do setor pet, conseguimos reduzir a carga tributária de forma legal, evitando o pagamento desnecessário de impostos e prevenindo multas por procedimentos incorretos. Atuamos de forma estratégica para que sua empresa esteja sempre em conformidade com as exigências fiscais.</p>
+            <p class="texto-sobre">Na Contábil Pet, profissionais especializados + processos inteligentes + tecnologia de ponta se unem para entregar um serviço ágil, transparente e que gera resultados reais. O nosso compromisso é ajudar você a focar no que realmente importa: o cuidado com os animais e o crescimento da sua empresa.</p>
+
+            <a href="https://wa.me/5521998382523" class="botao-sobre">FALE CONOSCO</a>
+
+            <img src="./assents/imagens/pata.svg" alt="pata" class="pata-sobre">
+        </section>
+
+        <section class="perguntas" id="perguntas">
+            <div class="titulo-pergunta">
+               <h1>PERGUNTAS FREQUENTES</h1>
+               <nav></nav>
+            </div>
+            
+            <div class="container-perguntas">
+                <nav class="frequentes">
+                    <h2>Como é Feito o Atendimento na Contábil Pet?</h2>
+                    <p>Na Contábil Pet, você é atendido por pessoas de verdade utilizando WhatsApp, e-mail ou chamada de vídeo</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>A Contábil Pet é Contabilidade On-line?</h2>
+                    <p>Somos uma contabilidade digital que faz tudo por você. Não precisa categorizar receitas, despesas ou gerar impostos, basta enviar as informações e focar no seu negócio enquanto cuidamos da burocracia.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Quais Negócios a Contábil Pet Atende?</h2>
+                    <p>Atendemos todos os portes de Pet Shop, Clínica Veterinária e subnichos do segmento.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Não Terei Problemas com o Fisco?</h2>
+                    <p>Se você seguir nossas recomendações, deixamos a sua empresa em ordem com o Fisco sem você precisar fazer nada mais. Ganhe tempo, tranquilidade e foque no crescimento do seu negócio.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>A Contábil Pet Atende MEI?</h2>
+                    <p>Sim, atendemos o MEI – Microempreendedor Individual nos casos de transformação para microempresa.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Atendem Lucro Presumido?</h2>
+                    <p> Sim! Atendemos empresas do Lucro Presumido, cuidando de toda a parte contábil e fiscal. Você só precisa enviar as informações, e nós tratamos do resto impostos, obrigações e burocracias para que possa focar no crescimento do seu negócio.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Atendem Lucro Real?</h2>
+                    <p>Sim. Atendemos empresas tributadas pelo Lucro Real.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Como Funciona a Abertura de Empresa?</h2>
+                    <p>Todo processo será conduzido a distância. Após a contratação prepararemos os documentos e enviaremos no seu e-mail para assinatura. Em alguns dias seu negócio estará legalizado.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>Quais Localizações a Contábil Pet Atende?</h2>
+                    <p>Atendemos todo o Brasil. Nossa sede está localizada no Rio de Janeiro, Barra da Tijuca.</p>
+                </nav>
+
+                <nav class="frequentes">
+                    <h2>A Contábil Pet tem Contrato de Fidelidade?</h2>
+                    <p>Você não terá contrato de fidelidade. Se não ficar satisfeito com os nossos serviços poderá cancelar a qualquer momento.</p>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="rodape">
+            <section class="container-rodape">
+                <div class="rodape-contato">
+                    <a href="#home">
+                        <img src="./assents/imagens/logo.png" alt="logo" class="logo">
+                    </a>
+    
+                    <p>Contábil Pet © 2025.</p>
+                    <p>Todos os direitos reservados.</p>
+                </div>
+                <div class="rodape-contato">
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=comercial@contabilpet.com" title="Email">comercial@contabilpet.com</a>
+                    <p>Barra da Tijuca, Rio de Janeiro - Brasil</p>
+                </div>
+
+                <div class="rodape-contato">
+                    <h2>Redes Sociais</h2>
+                    <nav>
+                        <a href="https://www.facebook.com/contabilpet?locale=pt_BR">
+                            <img src="./assents/imagens/instagram.png" alt="instagram" title="Instagram"> 
+                        </a>
+                        <a href="https://www.facebook.com/contabilpet?locale=pt_BR">
+                            <img src="./assents/imagens/facebook.png" alt="facebook" title="Facebook">
+                        </a>
+                        <a href="https://wa.me/552196770-9191">
+                            <img src="./assents/imagens/whatsapp.png" alt="whatsapp" title="WhatsApp">
+                        </a>
+                    </nav>
+                </div>
+            </section>
+            <hr>
+            <p class="devs">Desenvolvedores: Ian Barbosa & Erick Fernandes</p>
+        </section>
+    </footer>
+
+    <script src="./assents/js/script.js"></script>
+</body>
+</html>

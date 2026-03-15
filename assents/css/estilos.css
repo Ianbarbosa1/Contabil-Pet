@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", 'Segoe UI';
+    text-decoration: none;
+    transition: all 0.8s ease;
+}
+
+
+/*DIVS FLEX*/
+.entrada, .menu,.botoes, .estrutura-menu, .estrutura-interna-menu, .atendemos, .atendemos-container, .empresas, .setas, .container-empresa, .tipo-empresa, .contabilidade, .contabilidade-interno, .servicos, .sobre-nos, .titulo-sobre, .perguntas, .titulo-pergunta, .container-perguntas, .frequentes, footer, .rodape, .rodape-logo, .container-rodape, .rodape-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #E8F4FA;
+}
+
+/*ESTRUTURA DA ENTRADA*/
+.entrada {
+    flex-direction: column;
+}
+/*MENU*/
+.menu {
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3px 30px 0px 30px;
+    border-bottom: 1px solid #5F6C7B;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.logo {
+    height: 60px;
+}
+.botoes {
+    gap: 30px;
+
+    & a {
+        padding: 12px 16px;
+        border-radius: 15px 5px;
+        background-color: #0084e0;
+        color: #E8F4FA;
+        border: 1px solid transparent;
+
+        &:hover {
+            border-radius: 10px 3px;
+            color: #0084e0;
+            background-color: #E8F4FA;
+            border: 1px solid #0084e0;
+        }
+    }
+
+    & img {
+        height: 30px;
+        cursor: pointer;
+    }
+}
+/*CONTAINER AZUL*/
+.menu-estatico {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    z-index: +99;
+    backdrop-filter: blur(1px);
+    display: none;
+}
+.estrutura-menu {
+    align-items: start;
+    justify-content: start;
+    padding: 15px 10px;
+    background-color: #E8F4FA;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    gap: 30px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 2px solid #5f6c7b69;
+        padding: 10px;
+        & img{
+            height: 40px;
+        }
+        & .fechar{
+            height: 40px;
+            cursor: pointer;
+            color: #5F6C7B;
+            font-family: "Quicksand", sans-serif;
+        }
+    }
+}
+.estrutura-interna-menu{
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    width: 100%;
+    & h1{
+        font-size: 15px;
+        font-weight: 700;
+        color: #5F6C7B;
+    }
+    & a{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 300px;
+        width: 100%;
+        gap: 10px;
+        padding: 5px;
+        color: #0084e0;
+        border-radius: 15px;
+        font-family: "Quicksand", sans-serif;
+        & img{
+            height: 40px;
+            background-color: #0084e0;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        &:hover{
+            background-color: #5f6c7b41;
+        }
+    }
+}
+
+/*TITULOS E CONTAINER INICIAL*/
+.container-inicial {
+    width: 100%;
+    height: 85vh;
+    background-image: url(../imagens/dog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulos {
+    width: 900px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+
+    & h1,
+    span {
+        font-size: 50px;
+        color: #E8F4FA;
+        font-family: "Quicksand", sans-serif;
+    }
+
+    & span {
+        border-bottom: 3px solid #f2c94d;
+    }
+
+    & h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #E8F4FA;
+        font-family: "Quicksand", sans-serif;
+        margin: 10px 0px;
+    }
+
+    & a {
+        position: relative;
+        top: 20px;
+        padding: 12px 16px;
+        font-size: 20px;
+        border-radius: 15px 5px;
+        color: #0084e0;
+        background-color: #f2c94d;
+        border: 1px solid transparent;
+
+        &:hover {
+            border-radius: 10px 3px;
+            color: #f2c94d;
+            border: 1px solid #f2c94d;
+            background-color: #0084e0;
+        }
+    }
+}
+
+/*QUEM ATENDEMOS*/
+.atendemos {
+    height: 100%;
+    width: 100%;
+    padding: 100px 0px;
+    flex-direction: column;
+}
+.atendemos-container {
+    gap: 25px;
+    flex-direction: column;
+}
+.empresas {
+    width: 100%;
+    justify-content: space-between;
+
+    & h1 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 35px;
+        color: #0084e0;
+    }
+}
+.contador {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: #5F6C7B;
+}
+.setas {
+    height: 50px;
+    width: 330px;
+    gap: 25px;
+    justify-content: end;
+
+    & img {
+        padding: 15px;
+        border-radius: 50%;
+        height: 65px;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px #5F6C7B;
+
+        &:hover {
+            box-shadow: 0px 0px 15px #5F6C7B;
+        }
+    }
+}
+.container-empresa {
+    gap: 25px;
+}
+.tipo-empresa {
+    height: 350px;
+    width: 550px;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0px 0px 5px #5F6C7B;
+    border-radius: 15px;
+
+    & h2 {
+        font-size: 30px;
+        font-family: "Quicksand", sans-serif;
+        color: #003E59;
+        font-weight: 400;
+    }
+    & img {
+        height: 200px;
+    }
+    &:hover img {
+        height: 215px;
+    }
+    &:hover h2 {
+        padding-top: 15px;
+    }
+}
+#two, #three {
+    display: none;
+}
+#se1, #sd3 {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+#se2, #se3, #sd2, #sd3 {
+    display: none;
+}
+
+/*CONTABILIDADE*/
+.contabilidade {
+    padding: 100px 0px;
+    width: 100%;
+    background-color: #0084e0;
+    flex-direction: column;
+    gap: 15px;
+
+    & h1 {
+        color: #0084e0;
+        border-radius: 15px;
+        background-color: #E8F4FA;
+        padding: 5px;
+        font-family: "Quicksand", sans-serif;
+        font-size: 35px;
+    }
+    & p {
+        width: 60%;
+        color: #E8F4FA;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 100;
+    }
+}
+
+.contabilidade-interno {
+    gap: 15px;
+}
+.servicos {
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #003E59;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 5px;
+
+    & img {
+        height: 150px;
+    }
+
+    & h2 {
+        color: #E8F4FA;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 500;
+    }
+
+    & span {
+        color: #E8F4FA;
+        font-weight: 100;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 15px #003E59;
+    }
+}
+
+/*QUEM SOMOS*/
+.sobre-nos {
+    gap: 20px;
+    padding: 100px 0px;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #0084e0, #E8F4FA, #E8F4FA, #E8F4FA, #0084e0);
+
+    & h1 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 35px;
+        color: #E8F4FA;
+        background-color: #0084e0;
+        padding: 5px;
+        border-radius: 15px;
+    }
+}
+.texto-sobre {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5F6C7B;
+    text-align: justify;
+    width: 50%;
+}
+.botao-sobre {
+    color: #E8F4FA;
+    background-color: #f2c94d;
+    padding: 12px 16px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px 5px;
+
+    &:hover {
+        border: 1px solid #0084e0;
+        color: #0084e0;
+        background-color: #E8F4FA;
+        border-radius: 10px 3px;
+    }
+}
+.pata-sobre {
+    height: 50px;
+}
+
+/*PERGUNTAS FREQUENTES*/
+.perguntas {
+    padding: 100px 0px;
+    gap: 50px;
+    flex-direction: column;
+    background-color: #0084e0;
+}
+.titulo-pergunta {
+    flex-direction: column;
+    gap: 5px;
+
+    & h1 {
+        padding: 3px 5px;
+        font-family: "Quicksand", sans-serif;
+        font-size: 35px;
+        color: #E8F4FA;
+    }
+
+    & nav {
+        height: 5px;
+        width: 100px;
+        background-color: #E8F4FA;
+    }
+}
+.container-perguntas {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.frequentes {
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #E8F4FA;
+    & h2 {
+        color: #003E59;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 600;
+        font-size: 21px;
+    }
+    & p {
+        color: #E8F4FA;
+        font-weight: 200;
+        opacity: 0;
+        position: absolute;
+        width: 300px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(2px);
+        border-radius: 15px;
+        padding: 5px;
+        cursor: context-menu;
+    }
+    &:hover p {
+        opacity: 1;
+        background-color: #18181898;
+    }
+}
+
+/*RODAPÉ*/
+footer {
+    height: 200px;
+    flex-direction: column;
+    background-color: #E8F4FA;
+    color: #5F6C7B;
+}
+.rodape {
+    flex-direction: column;
+    width: 98%;
+    gap: 15px;
+}
+.rodape-contato {
+    gap: 15px;
+    color: #5F6C7B;
+    flex-direction: column;
+
+    .logo {
+        height: 50px;
+        background-color: transparent;
+        padding: 0px;
+    }
+    & a, p{
+        color: #5F6C7B;
+        font-weight: 400;
+    }
+    & nav {
+       display: flex;
+       gap: 15px;
+    }
+    & h2 {
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: 1.5px solid;
+        margin-bottom: 3px;
+    }
+    & img {
+        height: 40px;
+        background-color: #0084e0;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
+.container-rodape {
+    width: 100%;
+    justify-content: space-around;
+}
+hr {
+    width: 100%;
+    border: 1px solid #5f6c7b3b;
+}
+.devs {
+    width: 100%;
+    color: #5F6C7B;
+    font-family: "Quicksand", sans-serif;
+    text-align: end;
+    font-size: 13px;
+}
